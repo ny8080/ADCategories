@@ -1,0 +1,64 @@
+PODS:
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0.1)
+  - TDFCategories (2.0.23):
+    - TDFCategories/NSBundle (= 2.0.23)
+    - TDFCategories/NSData (= 2.0.23)
+    - TDFCategories/NSDictionay (= 2.0.23)
+    - TDFCategories/NSMutableArray (= 2.0.23)
+    - TDFCategories/NSString (= 2.0.23)
+    - TDFCategories/UIButton (= 2.0.23)
+    - TDFCategories/UICollectionReusableView (= 2.0.23)
+    - TDFCategories/UICollectionViewCell (= 2.0.23)
+    - TDFCategories/UIColor (= 2.0.23)
+    - TDFCategories/UIImage (= 2.0.23)
+    - TDFCategories/UILabel (= 2.0.23)
+    - TDFCategories/UIScrollView (= 2.0.23)
+    - TDFCategories/UITableViewCell (= 2.0.23)
+    - TDFCategories/UITableViewHeaderFooterView (= 2.0.23)
+    - TDFCategories/UIView (= 2.0.23)
+    - TDFCategories/UIViewController (= 2.0.23)
+  - TDFCategories/NSBundle (2.0.23)
+  - TDFCategories/NSData (2.0.23)
+  - TDFCategories/NSDictionay (2.0.23)
+  - TDFCategories/NSMutableArray (2.0.23)
+  - TDFCategories/NSString (2.0.23):
+    - TDFDataCenterKit
+  - TDFCategories/UIButton (2.0.23)
+  - TDFCategories/UICollectionReusableView (2.0.23)
+  - TDFCategories/UICollectionViewCell (2.0.23)
+  - TDFCategories/UIColor (2.0.23)
+  - TDFCategories/UIImage (2.0.23)
+  - TDFCategories/UILabel (2.0.23)
+  - TDFCategories/UIScrollView (2.0.23)
+  - TDFCategories/UITableViewCell (2.0.23):
+    - Masonry
+  - TDFCategories/UITableViewHeaderFooterView (2.0.23)
+  - TDFCategories/UIView (2.0.23):
+    - Masonry
+    - MBProgressHUD
+  - TDFCategories/UIViewController (2.0.23)
+  - TDFDataCenterKit (0.2.6)
+
+DEPENDENCIES:
+  - TDFCategories (from `.`)
+
+SPEC REPOS:
+  "git@git.2dfire-inc.com:ios/cocoapods-spec.git":
+    - Masonry
+    - MBProgressHUD
+    - TDFDataCenterKit
+
+EXTERNAL SOURCES:
+  TDFCategories:
+    :path: "."
+
+SPEC CHECKSUMS:
+  Masonry: 2010ecc61225f4348b543edf2f01a84f0ec48a13
+  MBProgressHUD: 443c07c0aa22772fbe3702db40fc65c36d80155e
+  TDFCategories: a91c67359d3f84f3fb01b3c859901e0a0cd16c8d
+  TDFDataCenterKit: 03f55993d032bc5491bb8e9af35e4ec709ae2a9b
+
+PODFILE CHECKSUM: cab012527752e8a2e1a2704a11c2c2b0d55475be
+
+COCOAPODS: 1.5.3
