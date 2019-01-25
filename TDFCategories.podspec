@@ -1,18 +1,18 @@
 Pod::Spec.new do |s|
   s.name         = "TDFCategories"
-  s.version      = "2.0.25"
+  s.version      = "0.0.1"
   s.summary      = "basic TDFCategories"
 
   s.description  = <<-DESC
   TDFCategories 分类工具
                    DESC
 
-  s.homepage     = "http://git.2dfire.net/ios/TDFCategories"
+  s.homepage     = "https://github.com/ny8080/ADCategories"
 
   s.license      = "LICENSE"
   s.author             = { "xueyu" => "xueyu@2dfire.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "git@git.2dfire.net:ios/TDFCategories.git", tag: s.version }
+  s.source       = { :git => "https://github.com/ny8080/ADCategories.git", tag: s.version }
 
 s.public_header_files = 'Classes/TDFCategories.h'
 s.source_files = 'Classes/TDFCategories.h'
