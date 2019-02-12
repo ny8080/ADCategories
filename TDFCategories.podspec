@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TDFCategories"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "basic TDFCategories"
 
   s.description  = <<-DESC
@@ -25,7 +25,7 @@ s.resources = "Resources/**/*.lproj"
 
 subspec_hashs = [
   { spec_name: 'NSBundle', source_files: "Classes/NSBundle/*.{h,m}" }, 
-  { spec_name: 'NSString', source_files: "Classes/NSString/*.{h,m}", spec_dependency: ["TDFDataCenterKit"] },
+  { spec_name: 'NSString', source_files: "Classes/NSString/*.{h,m}" },
   { spec_name: 'UICollectionReusableView', source_files: "Classes/UICollectionReusableView/*.{h,m}" }, 
   { spec_name: 'UICollectionViewCell', source_files: "Classes/UICollectionViewCell/*.{h,m}" }, 
   { spec_name: 'UIColor', source_files: "Classes/UIColor/*.{h,m}" }, 

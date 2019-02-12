@@ -1,64 +1,55 @@
 PODS:
   - Masonry (1.1.0)
-  - MBProgressHUD (1.1.0.1)
-  - TDFCategories (2.0.23):
-    - TDFCategories/NSBundle (= 2.0.23)
-    - TDFCategories/NSData (= 2.0.23)
-    - TDFCategories/NSDictionay (= 2.0.23)
-    - TDFCategories/NSMutableArray (= 2.0.23)
-    - TDFCategories/NSString (= 2.0.23)
-    - TDFCategories/UIButton (= 2.0.23)
-    - TDFCategories/UICollectionReusableView (= 2.0.23)
-    - TDFCategories/UICollectionViewCell (= 2.0.23)
-    - TDFCategories/UIColor (= 2.0.23)
-    - TDFCategories/UIImage (= 2.0.23)
-    - TDFCategories/UILabel (= 2.0.23)
-    - TDFCategories/UIScrollView (= 2.0.23)
-    - TDFCategories/UITableViewCell (= 2.0.23)
-    - TDFCategories/UITableViewHeaderFooterView (= 2.0.23)
-    - TDFCategories/UIView (= 2.0.23)
-    - TDFCategories/UIViewController (= 2.0.23)
-  - TDFCategories/NSBundle (2.0.23)
-  - TDFCategories/NSData (2.0.23)
-  - TDFCategories/NSDictionay (2.0.23)
-  - TDFCategories/NSMutableArray (2.0.23)
-  - TDFCategories/NSString (2.0.23):
-    - TDFDataCenterKit
-  - TDFCategories/UIButton (2.0.23)
-  - TDFCategories/UICollectionReusableView (2.0.23)
-  - TDFCategories/UICollectionViewCell (2.0.23)
-  - TDFCategories/UIColor (2.0.23)
-  - TDFCategories/UIImage (2.0.23)
-  - TDFCategories/UILabel (2.0.23)
-  - TDFCategories/UIScrollView (2.0.23)
-  - TDFCategories/UITableViewCell (2.0.23):
+  - MBProgressHUD (1.1.0)
+  - TDFCategories (0.0.2):
+    - TDFCategories/NSBundle (= 0.0.2)
+    - TDFCategories/NSData (= 0.0.2)
+    - TDFCategories/NSDictionay (= 0.0.2)
+    - TDFCategories/NSMutableArray (= 0.0.2)
+    - TDFCategories/NSString (= 0.0.2)
+    - TDFCategories/UIButton (= 0.0.2)
+    - TDFCategories/UICollectionReusableView (= 0.0.2)
+    - TDFCategories/UICollectionViewCell (= 0.0.2)
+    - TDFCategories/UIColor (= 0.0.2)
+    - TDFCategories/UIImage (= 0.0.2)
+    - TDFCategories/UILabel (= 0.0.2)
+    - TDFCategories/UIScrollView (= 0.0.2)
+    - TDFCategories/UITableViewCell (= 0.0.2)
+    - TDFCategories/UITableViewHeaderFooterView (= 0.0.2)
+    - TDFCategories/UIView (= 0.0.2)
+    - TDFCategories/UIViewController (= 0.0.2)
+  - TDFCategories/NSBundle (0.0.2)
+  - TDFCategories/NSData (0.0.2)
+  - TDFCategories/NSDictionay (0.0.2)
+  - TDFCategories/NSMutableArray (0.0.2)
+  - TDFCategories/NSString (0.0.2)
+  - TDFCategories/UIButton (0.0.2)
+  - TDFCategories/UICollectionReusableView (0.0.2)
+  - TDFCategories/UICollectionViewCell (0.0.2)
+  - TDFCategories/UIColor (0.0.2)
+  - TDFCategories/UIImage (0.0.2)
+  - TDFCategories/UILabel (0.0.2)
+  - TDFCategories/UIScrollView (0.0.2)
+  - TDFCategories/UITableViewCell (0.0.2):
     - Masonry
-  - TDFCategories/UITableViewHeaderFooterView (2.0.23)
-  - TDFCategories/UIView (2.0.23):
+  - TDFCategories/UITableViewHeaderFooterView (0.0.2)
+  - TDFCategories/UIView (0.0.2):
     - Masonry
     - MBProgressHUD
-  - TDFCategories/UIViewController (2.0.23)
-  - TDFDataCenterKit (0.2.6)
+  - TDFCategories/UIViewController (0.0.2)
 
 DEPENDENCIES:
-  - TDFCategories (from `.`)
-
-SPEC REPOS:
-  "git@git.2dfire-inc.com:ios/cocoapods-spec.git":
-    - Masonry
-    - MBProgressHUD
-    - TDFDataCenterKit
+  - TDFCategories (from `./TDFCategories.podspec`)
 
 EXTERNAL SOURCES:
   TDFCategories:
-    :path: "."
+    :path: ./TDFCategories.podspec
 
 SPEC CHECKSUMS:
-  Masonry: 2010ecc61225f4348b543edf2f01a84f0ec48a13
-  MBProgressHUD: 443c07c0aa22772fbe3702db40fc65c36d80155e
-  TDFCategories: a91c67359d3f84f3fb01b3c859901e0a0cd16c8d
-  TDFDataCenterKit: 03f55993d032bc5491bb8e9af35e4ec709ae2a9b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  TDFCategories: b4dfd99950f2d4828add5c2ac69021c8b36b752e
 
-PODFILE CHECKSUM: cab012527752e8a2e1a2704a11c2c2b0d55475be
+PODFILE CHECKSUM: b85a3c9243c3fa671a0a66c3e0b37f9e7927012e
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.3.1

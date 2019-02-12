@@ -6,7 +6,7 @@
 //
 //
 #import "NSString+BaseFormatter.h"
-#import "TDFDataCenter.h"
+#import "ADDataCenter.h"
 
 @implementation NSString (BaseFormatter)
 - (NSString *)tdf_leave2Decimal {
